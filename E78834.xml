@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0" xmlns:xd="http://www.w3.org/2000/09/xmldsig#" Version="0.4">
+  <dte:SAT ClaseDocumento="dte">
+    <dte:DTE ID="DatosCertificados">
+      <dte:DatosEmision ID="DatosEmision">
+        <dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2019-04-11T00:00:00-06:00" Tipo="FCAM" />
+        <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="359815" NombreComercial="DROGUERIA COLON, S.A." NombreEmisor="DROGUERIA COLON, S.A.">
+          <dte:DireccionEmisor>
+            <dte:Direccion>13 Av. 5-40, ZONA 1 GUATEMALA, C.A.</dte:Direccion>
+            <dte:CodigoPostal>01001</dte:CodigoPostal>
+            <dte:Municipio>Guatemala</dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionEmisor>
+        </dte:Emisor>
+        <dte:Receptor CorreoReceptor="" IDReceptor="77110897" NombreReceptor="DROGUERIA CENTRO HISTORICO SOCIEDAD ANONIMA">
+          <dte:DireccionReceptor>
+            <dte:Direccion>DROGUERIA CENTRO HISTORICO SOCIEDAD ANONIMA</dte:Direccion>
+            <dte:CodigoPostal>01001</dte:CodigoPostal>
+            <dte:Municipio>Guatemala</dte:Municipio>
+            <dte:Departamento>Guatemala</dte:Departamento>
+            <dte:Pais>GT</dte:Pais>
+          </dte:DireccionReceptor>
+        </dte:Receptor>
+        <dte:Frases>
+          <dte:Frase CodigoEscenario="1" TipoFrase="1" />
+          <dte:Frase CodigoEscenario="1" TipoFrase="2" />
+          <dte:Frase CodigoEscenario="9" TipoFrase="4" />
+        </dte:Frases>
+        <dte:Items>
+          <dte:Item BienOServicio="B" NumeroLinea="1">
+            <dte:Cantidad>6.00</dte:Cantidad>
+            <dte:UnidadMedida>ST</dte:UnidadMedida>
+            <dte:Descripcion>GARVIDA CAJA DE 30 CAP        </dte:Descripcion>
+            <dte:PrecioUnitario>232.000000</dte:PrecioUnitario>
+            <dte:Precio>1392.000000</dte:Precio>
+            <dte:Descuento>417.600000</dte:Descuento>
+            <dte:Impuestos>
+              <dte:Impuesto>
+                <dte:NombreCorto>IVA</dte:NombreCorto>
+                <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                <dte:MontoGravable>870.000000</dte:MontoGravable>
+                <dte:MontoImpuesto>104.400000</dte:MontoImpuesto>
+              </dte:Impuesto>
+            </dte:Impuestos>
+            <dte:Total>974.400000</dte:Total>
+          </dte:Item>
+        </dte:Items>
+        <dte:Totales>
+          <dte:TotalImpuestos>
+            <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="104.400000" />
+          </dte:TotalImpuestos>
+          <dte:GranTotal>974.400000</dte:GranTotal>
+        </dte:Totales>
+        <dte:Complementos>
+          <dte:Complemento IDComplemento="AbonosFacturaCambiaria" NombreComplemento="AbonosFacturaCambiaria" URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0">
+            <cfc:AbonosFacturaCambiaria xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" Version="1">
+              <cfc:Abono>
+                <cfc:NumeroAbono>1</cfc:NumeroAbono>
+                <cfc:FechaVencimiento>2019-04-11</cfc:FechaVencimiento>
+                <cfc:MontoAbono>974.400000</cfc:MontoAbono>
+              </cfc:Abono>
+            </cfc:AbonosFacturaCambiaria>
+          </dte:Complemento>
+        </dte:Complementos>
+      </dte:DatosEmision>
+    </dte:DTE>
+  </dte:SAT>
+</dte:GTDocumento>

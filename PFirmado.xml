@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dte:GTDocumento xmlns:dte="http://www.sat.gob.gt/dte/fel/0.1.0" xmlns:xd="http://www.w3.org/2000/09/xmldsig#" Version="0.4">
+   <dte:SAT ClaseDocumento="dte">
+      <dte:DTE ID="DatosCertificados">
+         <dte:DatosEmision ID="DatosEmision">
+            <dte:DatosGenerales CodigoMoneda="GTQ" FechaHoraEmision="2019-04-15T00:00:00-06:00" Tipo="FCAM" />
+            <dte:Emisor AfiliacionIVA="GEN" CodigoEstablecimiento="1" CorreoEmisor="" NITEmisor="359815" NombreComercial="DROGUERIA COLON, S.A." NombreEmisor="DROGUERIA COLON, S.A.">
+               <dte:DireccionEmisor>
+                  <dte:Direccion>13 Av. 5-40, ZONA 1 GUATEMALA, C.A.</dte:Direccion>
+                  <dte:CodigoPostal>01001</dte:CodigoPostal>
+                  <dte:Municipio>Guatemala</dte:Municipio>
+                  <dte:Departamento>Guatemala</dte:Departamento>
+                  <dte:Pais>GT</dte:Pais>
+               </dte:DireccionEmisor>
+            </dte:Emisor>
+            <dte:Receptor CorreoReceptor="" IDReceptor="77110897" NombreReceptor="DROGUERIA CENTRO HISTORICO SOCIEDAD ANONIMA">
+               <dte:DireccionReceptor>
+                  <dte:Direccion>DROGUERIA CENTRO HISTORICO SOCIEDAD ANONIMA</dte:Direccion>
+                  <dte:CodigoPostal>01001</dte:CodigoPostal>
+                  <dte:Municipio>Guatemala</dte:Municipio>
+                  <dte:Departamento>Guatemala</dte:Departamento>
+                  <dte:Pais>GT</dte:Pais>
+               </dte:DireccionReceptor>
+            </dte:Receptor>
+            <dte:Frases>
+               <dte:Frase CodigoEscenario="1" TipoFrase="1" />
+               <dte:Frase CodigoEscenario="1" TipoFrase="2" />
+               <dte:Frase CodigoEscenario="9" TipoFrase="4" />
+            </dte:Frases>
+            <dte:Items>
+               <dte:Item BienOServicio="B" NumeroLinea="1">
+                  <dte:Cantidad>6.00</dte:Cantidad>
+                  <dte:UnidadMedida>ST</dte:UnidadMedida>
+                  <dte:Descripcion>GARVIDA CAJA DE 30 CAP</dte:Descripcion>
+                  <dte:PrecioUnitario>232.000000</dte:PrecioUnitario>
+                  <dte:Precio>1392.000000</dte:Precio>
+                  <dte:Descuento>417.600000</dte:Descuento>
+                  <dte:Impuestos>
+                     <dte:Impuesto>
+                        <dte:NombreCorto>IVA</dte:NombreCorto>
+                        <dte:CodigoUnidadGravable>1</dte:CodigoUnidadGravable>
+                        <dte:MontoGravable>870.000000</dte:MontoGravable>
+                        <dte:MontoImpuesto>104.400000</dte:MontoImpuesto>
+                     </dte:Impuesto>
+                  </dte:Impuestos>
+                  <dte:Total>974.400000</dte:Total>
+               </dte:Item>
+            </dte:Items>
+            <dte:Totales>
+               <dte:TotalImpuestos>
+                  <dte:TotalImpuesto NombreCorto="IVA" TotalMontoImpuesto="104.400000" />
+               </dte:TotalImpuestos>
+               <dte:GranTotal>974.400000</dte:GranTotal>
+            </dte:Totales>
+            <dte:Complementos>
+               <dte:Complemento IDComplemento="AbonosFacturaCambiaria" NombreComplemento="AbonosFacturaCambiaria" URIComplemento="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0">
+                  <cfc:AbonosFacturaCambiaria xmlns:cfc="http://www.sat.gob.gt/dte/fel/CompCambiaria/0.1.0" Version="1">
+                     <cfc:Abono>
+                        <cfc:NumeroAbono>1</cfc:NumeroAbono>
+                        <cfc:FechaVencimiento>2019-04-11</cfc:FechaVencimiento>
+                        <cfc:MontoAbono>974.400000</cfc:MontoAbono>
+                     </cfc:Abono>
+                  </cfc:AbonosFacturaCambiaria>
+               </dte:Complemento>
+            </dte:Complementos>
+         </dte:DatosEmision>
+      </dte:DTE>
+   </dte:SAT>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-787bd8ce-faf1-404c-8bf6-0cd1059e0f69"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference Id="Reference-738ee539-0d17-4028-a1c0-e12a9429f722" URI="#DatosEmision"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Ut3RsDUj1CKBr/ijs7JheaWaauWi1nOz6wi8QU57gUk=</ds:DigestValue></ds:Reference><ds:Reference Id="ReferenceKeyInfo" URI="#KeyInfoId-Signature-787bd8ce-faf1-404c-8bf6-0cd1059e0f69"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>jwFejPRj6AQGGy9H2X1CtBLX3hvuz4OPBrb/MmxrjO8=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-Signature-787bd8ce-faf1-404c-8bf6-0cd1059e0f69"><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>Ye3/lIcwOZZ1+8/5AtFROMlT8kqa0ZUddL752iQiiVo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="SignatureValue-787bd8ce-faf1-404c-8bf6-0cd1059e0f69">AaoKWx7yXP2Gd8bsqcI9HaP/CV3YO4ClDoVJB2osJ5V1ddMTONV7K74BmTDGN167uURazK87lmQLzjTUNG90SG2Z1Cl/UziBRvZiGO5byfZyj09ZDgl/qYDhgkHCux7Xrmoub37/YThz7g/jflrpVLHquTf7nyg8lZ70zYWnPj1AlaSjMby5+Tb5hPAB439PYv3LSS2iI2phDva/7PH7YmDqQlrZ66ky7AD5Hcw9G6U7oZ5lKHV9HjCwGJaMH7rL4Sbz7n7oClL1ilI8C6er3Zus94wus1BvtaJF3CH7irsZkCX67vZiJ2gRk3Y6pO1cpCFjWAIfYJG7QJb1BNMlyQ==</ds:SignatureValue><ds:KeyInfo Id="KeyInfoId-Signature-787bd8ce-faf1-404c-8bf6-0cd1059e0f69"><ds:X509Data><ds:X509Certificate>MIIDUDCCAjigAwIBAgIIO1lbrcz4H3swDQYJKoZIhvcNAQELBQAwKTEMMAoGA1UEAwwDRkVMMQwwCgYDVQQKDANTQVQxCzAJBgNVBAYTAkdUMB4XDTE5MDQxNTE5MTcyNloXDTIxMDQxNDE5MTcyNlowJjEPMA0GA1UEAwwGMzU5ODE1MRMwEQYDVQQKDApzYXQuZ29iLmd0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA7Kn1upyh7j4Wi+NiYyBzNLPdjwPXxFhRfQ1EBtkTo1SKoHnlYpvuDiO1g36aPG85ndVzd+MjsgLluQFpZH3OW2GYJZCIONwqK3vDjDA1CDEI//X5y9rc5QPix5Rq0qon+sEg/nklvIqx2PkQH18ce195IYZHFbTg8BkXoGv73acalWFav4skeW0+Y4Xok/Bcx8C3xnMChyxjI0U/jzUKh+s7CUrLKGIFoLaMCIICn6C8Gb2B2EL0MqQarE7XKytBPcPtPZoJlqLmgZ6PZ+QnbOJ8/7Si9L/Cb4N3SfKLTKogKHecI36dqRUdDLDJ0kSo34ZrAjHKZS3JDyJmI15gpwIDAQABo38wfTAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFHO984pSbDOYWdf30K2xc4y0UEoKMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDAdBgNVHQ4EFgQU3zqYE5tpLqJVyRLDVFNUtZtK9ZwwDgYDVR0PAQH/BAQDAgXgMA0GCSqGSIb3DQEBCwUAA4IBAQANwCl7OtZoelZHsOEJGFOzKgVfUUcfxGTgeIu5rbP4AMQdOSmqGiVyje8+Lq0oN6jhBQW1Q9N/xBdL4wHLtC64CBvLclWzA+o+6dSdpWGxZxFOF9e7WKi35F1YlgEzG7Nn23K/LCK0PExkivPRO1AmzirygvxHwKbAbVx6QMB3G4k7H3/CH+jJKUBSKqChf3EwoIWrJS6ym7GLA++SmTqOqN8mAiFhqgA5Chu8EiY98jitDNvLywDLTnW6Kc8F+hwk+n49vvXjo6S9GhWNLI6juPOFo+IONFt2PdPdsi7nUK2ssAcnujcsTUKdbueAVUyA4zbwu7VbwPFNoZcl2igz</ds:X509Certificate></ds:X509Data><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>7Kn1upyh7j4Wi+NiYyBzNLPdjwPXxFhRfQ1EBtkTo1SKoHnlYpvuDiO1g36aPG85ndVzd+MjsgLluQFpZH3OW2GYJZCIONwqK3vDjDA1CDEI//X5y9rc5QPix5Rq0qon+sEg/nklvIqx2PkQH18ce195IYZHFbTg8BkXoGv73acalWFav4skeW0+Y4Xok/Bcx8C3xnMChyxjI0U/jzUKh+s7CUrLKGIFoLaMCIICn6C8Gb2B2EL0MqQarE7XKytBPcPtPZoJlqLmgZ6PZ+QnbOJ8/7Si9L/Cb4N3SfKLTKogKHecI36dqRUdDLDJ0kSo34ZrAjHKZS3JDyJmI15gpw==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue></ds:KeyInfo><ds:Object Id="XadesObjectId-720fba5e-47fe-4a68-b0bd-d4401fa7bb9e"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="QualifyingProperties-0fdf8e04-38e1-4f43-9617-ecc6ff869b9e" Target="#Signature-787bd8ce-faf1-404c-8bf6-0cd1059e0f69"><xades:SignedProperties Id="SignedProperties-Signature-787bd8ce-faf1-404c-8bf6-0cd1059e0f69"><xades:SignedSignatureProperties><xades:SigningTime>2019-04-15T15:46:59-06:00</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>O9/p4+LVSNUziuGyiwNJZzVwI9l2ml2QR+rtiFgNrGE=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=GT, O=SAT, CN=FEL</ds:X509IssuerName><ds:X509SerialNumber>4276550123191279483</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-738ee539-0d17-4028-a1c0-e12a9429f722"><xades:MimeType>text/xml</xades:MimeType><xades:Encoding>UTF-8</xades:Encoding></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></dte:GTDocumento>
